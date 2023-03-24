@@ -1,10 +1,13 @@
-# cookiecutter-template
+# cookiecutter-python
 
 ## Intro
-Create projects quickly
+Quickly create python package projects
 
 ## Usage
-Click the "Use this template" button. 
+```bash
+$ pip3 install cookiecutter
+$ cookiecutter https://github.com/zxqfl/cookiecutter-python.git
+```
 
 
 ## License
