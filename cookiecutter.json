@@ -1,9 +1,9 @@
 {
+  "project_name": "pypackage",
   "author_name": "Xiang Zheng",
   "email": "zxyful@gmail.com",
-  "project_name": "Awesome Project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_short_description": "An awesome project.",
+  "project_short_description": "An awesome python package.",
   "version": "1.0.0",
   "open_source_license": [
     "Not open source",
@@ -15,6 +15,7 @@
   ],
   "_copy_without_render": [
     ".gitkeep",
-    "docs/"
+    "docs/",
+    ".github/"
   ]
 }
